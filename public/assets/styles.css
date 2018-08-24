@@ -1,0 +1,112 @@
+
+html, body {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background: #FEFEFE;
+    overflow-x: hidden;
+}
+
+h1, h2, h3, h4, h5, a, p, label, li, button {
+    font-family: 'Dosis', sans-serif;
+}
+
+.pointer {
+    cursor: pointer;
+}
+
+.login {
+    padding-top: 10rem;
+    display: block;
+    margin: 0 auto;
+    max-width: 21rem;
+}
+
+.push-notification {
+    position: fixed;
+    bottom: 3rem;
+    right: 3rem;
+    z-index: 9999;
+}
+
+.btn {
+    border: 1px solid;
+    font-weight: 700;
+}
+
+h1, h2, h3, h4, h5 {
+    font-weight: 100;
+}
+
+input.text-white.text-white.text-white {
+    border-color: #CCC;
+    background-image: none;
+    border-bottom: 1px solid;
+}
+
+.text-white::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: #EEE;
+    opacity: 1;
+}
+
+.confirm-wrp {
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    z-index: 9999999;
+    background: rgba(0, 0, 0, 0.75);
+    width: 100%;
+    padding: 1rem 5rem;
+}
+
+.confirm-inner {
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+tr.pointer {
+    transition: 0.3s;
+}
+
+tr.pointer:hover {
+    background: #DEDEDE;
+}
+
+.table-wrp {
+    width: 100%;
+    overflow-x: auto;
+}
+
+select.form-control.form-control.form-control {
+    height: 33px;
+}
+
+.entity-select .description {
+    font-size: 1.1rem;
+}
+
+.always-visible {
+    display: block !important;
+    transform: scale(1) !important;
+    opacity: 1 !important;
+}
+
+@media(max-width: 800px) {
+    .hidden-sm {
+        display: none;
+    }
+}
+
+@media(min-width: 800px) {
+    .hidden-lg {
+        display: none;
+    }
+    .table-wrp {
+        overflow-x: hidden;
+    }
+}
